@@ -1,0 +1,32 @@
+body{
+    background-color: beige;
+    
+}
+
+.paso{
+    color: red;
+    text-align: center;
+}
+
+.material{
+    color: red;
+    text-align: center;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.link{
+    text-align: center;
+}
+
+h1{
+    color: red;
+}
+
+li{
+    color: blue;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de salud</title>
+</head>
+<body>
+    <h1>Formulario de Salud</h1>
+    <form action="https://formsubmit.co/dcbornios970@gmail.com" method="post">
+         <!-- datos de la persona-->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required><br><br>
+           <!-- generos -->
+        <label for="genero">Género:</label>
+        <input type="radio" id="genero m" name="genero" value="Masculino" required>
+        <label for="genero-m">Masculino</label>
+
+        <input type="radio" id="genero f" name="genero" value="Femenino" required>
+        <label for="genero-f">Femenino</label><br><br>
+                           <!-- inicio de sintomas dennis del futuro ya no toques aqui me costo un huevo no tocar los checkbox son mas complicados que como dice el mozilla--> 
+        <label for="sintomas">Síntomas:</label><br>
+        <input type="checkbox" id="fiebre" name="sintomas[]" value="Fiebre">
+        <label for="fiebre">Fiebre</label><br>
+        <input type="checkbox" id="tos" name="sintomas[]" value="Tos">
+        <label for="tos">Tos</label><br>
+        <input type="checkbox" id="dolor-garganta" name="sintomas[]" value="Dolor de Garganta">
+        <label for="dolor-garganta">Dolor de Garganta</label><br><br>
+
+        <label for="comentarios">como sientes los sintomas:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

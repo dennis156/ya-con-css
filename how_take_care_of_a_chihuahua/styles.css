@@ -1,0 +1,19 @@
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+h2{
+    color: red;
+}
+
+body{
+    background-color: beige;
+    text-align: center;
+}
+
+p{
+    color: brown;
+}

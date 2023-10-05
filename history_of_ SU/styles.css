@@ -1,0 +1,40 @@
+body{
+    background-color: blueviolet;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+h1{
+    color: aqua;
+    text-align: center;
+}
+
+h2{
+    color: aquamarine;
+}
+
+h3{
+    color: antiquewhite;
+}
+
+.links{
+    text-align: center;
+}
+
+.personajes{
+    text-align: center;
+}
+.trama{
+    text-align: center;
+}
+.creadores{
+    text-align: center;
+}
+
+.img{
+    text-align: center;
+}
